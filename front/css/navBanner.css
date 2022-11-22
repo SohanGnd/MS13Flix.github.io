@@ -6,15 +6,18 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
+	width: 100%;
+	height: 100%;
 }
 
-
+.app{
+	background-color: #111;
+}
 
 /* navBanner */
 .navBanner{
 	background-color: #111;
 	top: 0;
-	width: 100%;
 	height: 30px;
 	z-index: 1;
 	padding: 20px;
@@ -48,7 +51,7 @@ li{
 .nav_glass{
 	position: fixed;
 	width: 40px;
-	margin-left: 80%;
+	margin-left: 85%;
 	color: white;
 	cursor: pointer;
 }
@@ -56,7 +59,7 @@ li{
 .nav_bell{
 	position: fixed;
 	width: 40px;
-	margin-left: 85%;
+	margin-left: 90%;
 	color: white;
 	cursor: pointer;
 }
@@ -65,7 +68,7 @@ li{
 	position: fixed;
 	width: 55px;
 	height: 55px;
-	margin-left: 90%;
+	margin-left: 95%;
 	color: white;
 	object-fit: cover;
 	cursor: pointer;
