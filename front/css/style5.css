@@ -90,3 +90,30 @@
     height: 14rem;
     background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
 }
+
+/**********/
+/*  Row   */
+/**********/
+
+.row{
+    color: #fff;
+    margin-left: 20px;
+}
+
+.row_title{
+    margin: 0;
+}
+
+.row_posters{
+    display: flex;
+    padding: 20px;
+}
+
+.row_poster{
+    object-fit: contain;
+    width: 100%;
+    max-height: 248px;
+    margin-right: 10px;
+    transition: transform 450ms;
+    cursor: pointer;
+}
